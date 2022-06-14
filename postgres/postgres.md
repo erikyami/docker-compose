@@ -26,13 +26,14 @@ Docker Compose version v2.6.0
 
 ## Criação de diretórios:
 
+Criação dos diretórios:
 ```bash
 mkdir -p pgdata pgadmin
 ```
 
-Configuração de permissão para o diretório pgdata:
+Configuração de permissão para o diretório pgadmin:
 ```bash
-sudo chown 5050:5050 pgdata
+sudo chown 5050:5050 pgadmin
 ```
 
 
